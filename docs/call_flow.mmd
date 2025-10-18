@@ -1,0 +1,18 @@
+%% Save as call_flow.mmd and render in Mermaid
+flowchart TD
+  A[Greeting] --> B{Collect required fields}
+  B -->|Missing full_name| B1[Ask full_name]
+  B -->|Missing address| B2[Ask service_address]
+  B -->|Missing phone| B3[Ask phone_number]
+  B -->|Missing email| B4[Ask email]
+  B -->|Missing service| B5[Ask service_request]
+  B -->|Missing date| B6[Ask date]
+  B -->|Missing time| B7[Ask time_window]
+  B -->|All present| C[Check availability]
+  C -->|Available| D[Recap all fields]
+  C -->|Busy| C1[Suggest alternatives]
+  C1 --> C
+  D --> E{User confirms?}
+  E -->|Yes| F[Create appointment + Send confirmation]
+  E -->|No| B
+  F --> G[Goodbye]

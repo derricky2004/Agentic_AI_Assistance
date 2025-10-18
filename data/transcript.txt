@@ -1,0 +1,24 @@
+Nick: Thank you for calling Jacob's Plumbing. This is Nick.
+Steve: Hey Nick, Steve Manley. How are you today, sir?
+Nick: Pretty good. Tell me Steve, how can I assist you today?
+Steve: I'm converting a shop into an apartment. Plumbing is there (lavatory, toilet), but I want to add a shower. I'd like someone to come out and give me an estimate.
+Nick: Let me check coverage. Can you provide your address?
+Steve: [address provided]
+Nick: Checking coverage...
+Steve: Okay.
+Nick: We have coverage. Is there a specific day?
+Steve: No, just give me a heads-up and I'll be available.
+Nick: We have tomorrow at 11:00 a.m. Is that okay?
+Steve: 11:00 a.m. works.
+Nick: Best contact number?
+Steve: [phone number provided]
+Nick: Email for confirmation?
+Steve: [email address provided]
+Nick: Confirming email: [email address repeated]
+Steve: That's correct.
+Nick: Where did you hear about us?
+Steve: I saw your truck around [location mentioned].
+Nick: Great. We'll set up the appointment for tomorrow at 11:00. You'll receive email confirmation in 10–15 minutes. The plumber may call ahead to coordinate. Call us if you have questions.
+Steve: Thank you. Have a great day.
+Nick: You too. Thanks for calling.
+Steve: Bye-bye.

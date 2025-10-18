@@ -1,0 +1,18 @@
+Speaker,Dialogue
+Assistant,Thanks for calling Jacob's Plumbing. How can I help today?
+Caller,I'm converting a shop to an apartment and need an estimate to add a shower.
+Assistant,May I have your full name (first and last)?
+Caller,Steve Manley
+Assistant,What is the service address (street number + street name; city/zip if available)?
+Caller,"33 Main St, Springfield"
+Assistant,What is the best phone number to reach you?
+Caller,555-123-4567
+Assistant,What email should we use for the confirmation?
+Caller,steve.manley@example.com
+Assistant,Which date works? (YYYY-MM-DD or 'tomorrow')
+Caller,2025-10-19
+Assistant,What time works? (HH:MM-HH:MM or a single time like '11:00' or '11 am')
+Caller,11:00
+Assistant,"Let me confirm: Steve Manley at 33 Main St, Springfield. Phone 5551234567, email steve.manley@example.com. Issue: I'm converting a shop to an apartment and need an estimate to add a shower.. Appointment on 2025-10-19, 11:00-12:00. Is everything correct? (yes/no)"
+Caller,yes
+Assistant,All set! Your appointment ID is APT-1018234241. You will receive an email confirmation shortly. The technician may call ahead.

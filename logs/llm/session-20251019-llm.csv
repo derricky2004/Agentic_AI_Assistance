@@ -1,0 +1,14 @@
+Speaker,Dialogue
+Assistant,Thanks for calling Jacob's Plumbing. How can I help today?
+Caller,Need an estimate to add a shower; saw your truck near Oak Park.
+Assistant,"""Could you please tell me your full name, first and last?"""
+Caller,Steve Manley
+Assistant,"Could you kindly provide the service address, including street number, street name, city, and zip code if possible? This will help me assist you better."
+Caller,"The address is 33 Main St, Springfield."
+Assistant,"""Thank you for contacting Jacob's Plumbing, Steve Manley. I see that your service address is at 33 Main St, Springfield. Could you kindly provide the best phone number to reach you?"""
+Caller,You can email me at steve.manley@example.com and call me at (555) 123-4567.
+Assistant,"Sure thing, Steve Manley. What time is convenient for your appointment on October 20th? Please provide the hour and minutes or a single time such as '11 am' in the format HH:MM or HH:MM - HH:MM."
+Caller,"Tomorrow works, late morning around 11."
+Assistant,"Let me confirm: Steve Manley at 33 Main St, Springfield. Appointment on October 20th, time window 11:00-12:00. Is everything correct? (yes/no)"
+Caller,yes
+Assistant,"Thank you for scheduling, Mr. Manley! Your appointment ID is APT-1019002848. You will receive a confirmation email shortly. The technician may call ahead. Is there anything else I can assist with today?"

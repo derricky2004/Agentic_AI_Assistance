@@ -1,0 +1,45 @@
+required_fields:
+  - full_name
+  - service_address
+  - phone_number
+  - email
+  - service_request
+  - date
+  - time_window
+
+optional_fields:
+  - lead_source
+  - notes
+
+defaults_and_assumptions:
+  time_window_if_single_time: "11:00-12:00"
+  estimate_visit: true
+
+validators:
+  phone_number: "10-11 digits after stripping non-digits"
+  email: "must contain @ and a domain (case-insensitive)"
+  service_address: "includes street number and street name"
+  date: "ISO format YYYY-MM-DD (convert from phrases like 'tomorrow')"
+  time_window: "HH:MM-HH:MM, 24h clock"
+
+business_rules:
+  require_coverage_check_before_slots: true
+  availability_busy_windows:
+    - "12:00-14:00"
+  suggest_alternatives_if_busy: true
+  alternative_windows:
+    - "10:00-12:00"
+    - "14:00-16:00"
+  recap_before_finalize: true
+  send_email_confirmation_after_booking: true
+  technician_may_call_ahead: true
+
+tone_guidelines:
+  - "Friendly, concise, professional"
+  - "Ask one question at a time"
+  - "Reflect back key info"
+  - "Always full recap before confirming"
+
+examples:
+  service_request_example: "Add shower to existing plumbing for shop→apartment; estimate needed"
+  lead_source_example: "Saw company truck near <location>"
